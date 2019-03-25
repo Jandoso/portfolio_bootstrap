@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Caroline Jandoso Portfólio</title>
+    <meta name="viewport" content='width=device-width' , initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../Aula/src/css/style.css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- logo ou nome do projeto -->
+            <a class="navbar-brand" href="#">Caroline Jandoso Portfólio</a>
+            <!-- menu responsivo ou hamburguinho -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- subnavegação -->
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <!-- itens do menu -->
+                <ul class="navbar-nav mr-auto">
+
+                    <!-- cada link do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Mim</a>
+                    </li>
+                    <!-- cada link do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfólio</a>
+                    </li>
+                      <!-- cada link do menu -->
+                      <li class="nav-item">
+                            <a class="nav-link" href="src/assets/Exercicio/index.html" target="_blank">Currículo</a>
+                        </li>
+                    <!-- cada link do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Orçamento</a>
+                    </li>
+                    
+                    <!-- cada link do menu -->
+                    <!-- aqui começa o menu dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contato
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- opções do menu dropdown -->
+                            <a class="dropdown-item" href="#">LinkedIn</a>
+                            <a class="dropdown-item" href="#">GitHub</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <!-- item do menu desabilitado -->
+                    <!-- <li> class="nav-item"
+                          <a class="nav-link disabled" href="#">Desativado</a>
+                        </li>
+                      </ul>  -->
+                    <!-- barra de search -->
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
+                            aria-label="Pesquisar">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
+            </div>
+        </nav>
+    </header>
+    <section class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="src/assets/car-01.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/assets/car-02.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/assets/car-03.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h3 class="display-4 text-center">Sobre Mim</h3>
+            <div class="text-center">
+                <img src="src/assets/jandoso.jpg" class="img-thumbnail col-xs-6 col-md-3" alt="...">
+            </div>
+            <p class="text-justify">Programadora front-end, bióloga e cervejeira...uma mistura inusitada mas que no final funciona muito bem! Adoro aprender coisas novas, sou entusiasta da ciência e da divulgação científica e acredito que, como bem disse Paulo Freire, "se a educação sozinha não transforma a sociedade, sem ela, tampouco, a sociedade muda"</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h3 class="display-4 text-center">Portfólio</h3>
+            <p class="text-justify">Trabalhos e projetos desenvolvidos durante a {Reprograma}, entre março e maio
+                de 2019. A reprograma tem a proposta de inserir mulheres na área da tecnologia e suas recolocações no
+                mercado de trabalho. Durante 8 semanas
+                tivemos contato com o universo da programação, aprendendo diversas linguagens, frameworks, bibliotecas e
+                habilidades. Consta na grade de ensino HTML5, CSS3, BOOTSTRAP, JAVASCRIPT e JQUERY.
+                Além do conteúdo teórico tivemos ao longo do curso diversos projetos práticos para desenvolver o que
+                aprendemos.</p>
+                <div class="row">
+                    <div class="col-sm">
+                        <!-- Início Primeiro Card -->
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="src/assets/workshop.png" alt="Card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Workshop Seleção</h5>
+                                <p class="card-text">Página desenvolvida durante workshop de seleção para o Programa Online de Front-End Web Development da {reprograma}</p>
+                                <!-- Botão para acionar modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#modalExemplo">
+                                    Leia Mais
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <!-- Título do Modal -->
+                                                <h5 class="modal-title" id="exampleModalLabel">Workshop Seleção</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Fechar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <!-- Corpo de texto do Modal -->
+                                            <div class="modal-body">
+                                                Página desenvolvida durante workshop de seleção para o primeiro curso online de Front End da {reprograma}, utilizando conceitos básicos de HTML e CSS. <a href="https://caroljandoso.netlify.com/"
+                                                    target="_black">Visite</a>
+                                            </div>
+                                            <!-- Botão do Modal -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <!-- Início Segundo Card -->
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="src/assets/aula.png" alt="Card 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Aula Design Responsivo</h5>
+                                <p class="card-text">Página desenvolvida durante aula sobre Design Responsivo no Programa Online de Front-End Web Development da {reprograma}
+                                </p>
+                                <!-- Botão para acionar modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#modalExemplo2">
+                                    Leia Mais
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <!-- Título do Modal -->
+                                                <h5 class="modal-title" id="exampleModalLabel">Aula Design Responsivo</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Fechar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <!-- Corpo de texto do Modal -->
+                                            <div class="modal-body">
+                                                Projeto desenvolvido durante aula sobre design responsivo no primeiro curso online de Front End da {reprograma} <a
+                                                    href="https://aula1exercicio1.netlify.com/" target="_black">Visite</a>
+                                            </div>
+                                            <!-- Botão do Modal -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <!-- Início Terceiro Card -->
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="src/assets/responsivo.jpg" alt="Card 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Portfólio</h5>
+                                <p class="card-text">Projeto desenvolvido no módulo Design Responsivo do Curso de Front End da {reprograma}</p>
+                                <!-- Botão para acionar modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#modalExemplo3">
+                                    Leia Mais
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalExemplo3" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <!-- Título do Modal -->
+                                                <h5 class="modal-title" id="exampleModalLabel">Portfólio</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Fechar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <!-- Corpo de texto do Modal -->
+                                            <div class="modal-body">
+                                                Portfólio desenvolvido para o módulo sobre design responsivo durante o primeiro curso online de Front End da {reprograma} <a href="https://exerciciodesigneresponsivo.netlify.com/"
+                                                    target="_black">Visite</a>
+                                            </div>
+                                            <!-- Botão do Modal -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h3 class="display-4 text-center">Orçamentos</h3>
+            <p class="text-center">Peça seu orçamento, sem compromisso</p>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nome</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite Seu Nome">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Digite@seuemail.com.br">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput3">Telefone</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="(00)0000-0000">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput3">Fale Comigo</label>
+                    <textarea type="text" class="form-control" id="formGroupExampleInput3"
+                        placeholder="Em que posso ajudar?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+            </form>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
