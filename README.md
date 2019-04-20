@@ -6,4 +6,4 @@ Portfolio created during Bootstrap module of Online FrontEnd Dev course by {repr
 - HTML
 - Bootstrap
 
-##### Link: 
+##### Link: https://jandoso.github.io/portfolio_bootstrap/
